@@ -1,0 +1,43 @@
+/* src/styles/tokens.css */
+
+:root {
+    /* COLORS - Primary Palette */
+    --hls-primary-50: #f0f4ff;
+    --hls-primary-100: #e0e9ff;
+    --hls-primary-500: #6366f1;
+    --hls-primary-600: #4f46e5;
+    --hls-primary-700: #4338ca;
+    
+    /* COLORS - Grays */
+    --hls-gray-100: #f3f4f6;
+    --hls-gray-200: #e5e7eb;
+    --hls-gray-300: #d1d5db;
+    --hls-gray-400: #9ca3af;
+    --hls-gray-900: #111827;
+    
+    /* COLORS - Semantic */
+    --hls-success: #22c55e;
+    --hls-danger: #ef4444;
+  
+    /* SPACING & RADIUS */
+    --hls-space-2: 0.5rem;    /* 8px */
+    --hls-space-3: 0.75rem;   /* 12px */
+    --hls-space-4: 1rem;      /* 16px */
+    --hls-space-6: 1.5rem;    /* 24px */
+    
+    --hls-radius-md: 0.5rem;   /* 8px */
+    
+    /* FONTS */
+    --hls-font-family: 'Inter', sans-serif;
+    --hls-font-weight-medium: 500;
+    
+    /* TRANSITIONS */
+    --hls-transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  body {
+    font-family: var(--hls-font-family);
+    color: var(--hls-gray-900);
+  }

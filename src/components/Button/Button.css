@@ -1,0 +1,39 @@
+.hls-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: var(--hls-radius-md);
+    font-weight: var(--hls-font-weight-medium);
+    cursor: pointer;
+    transition: all var(--hls-transition-fast);
+  }
+  
+  .hls-button:disabled { opacity: 0.5; cursor: not-allowed; }
+  
+  /* SIZES */
+  .hls-button--sm { height: 32px; padding: 0 var(--hls-space-3); font-size: 0.875rem; }
+  .hls-button--md { height: 40px; padding: 0 var(--hls-space-4); font-size: 1rem; }
+  .hls-button--lg { height: 48px; padding: 0 var(--hls-space-6); font-size: 1.125rem; }
+  
+  /* VARIANTS */
+  .hls-button--primary {
+    background: var(--hls-primary-600);
+    color: white;
+  }
+  .hls-button--primary:hover:not(:disabled) { background: var(--hls-primary-700); }
+  
+  .hls-button--secondary {
+    background: white;
+    color: var(--hls-gray-900);
+    border-color: var(--hls-gray-300);
+  }
+  .hls-button--secondary:hover:not(:disabled) { background: var(--hls-gray-100); }
+  
+  .hls-button--danger { background: var(--hls-danger); color: white; }
+  .hls-button--ghost { background: transparent; color: var(--hls-gray-900); }
+  .hls-button--ghost:hover:not(:disabled) { background: var(--hls-gray-100); }
+  .hls-button--success {
+    background: var(--hls-success);
+    color: white;
+  }
